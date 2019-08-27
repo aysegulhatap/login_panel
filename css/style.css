@@ -1,0 +1,221 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	
+	
+}
+
+
+.picture{
+	width: 480px;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: -66px;
+	text-align: center;
+	overflow: hidden;
+	margin:0px;
+	padding: 0px;
+
+}
+
+
+.black{
+	width: 483px;
+	height: 100%;
+	display: block;
+	background: rgba(31, 31, 31, 0.90);
+	position: fixed;
+	left: -20px;
+	z-index: 2;
+	
+}
+
+.InVision{
+	z-index:3;
+	position:fixed;
+	margin-top: 200px;
+	margin-left: 150px;
+	font-size: 12px;
+}
+
+.the_design{
+	z-index:3;
+	position: fixed;
+	margin-top: 240px;
+	margin-left: 50px;
+}
+
+.unlimited {
+	z-index:3;
+	position:fixed;
+	margin-top: 330px;
+	margin-left: 50px;
+	color: rgb(255, 255, 255);
+	opacity: 0.5;
+}
+
+.red{
+	z-index:3;
+	position: fixed;
+	margin-top: 400px;
+	margin-left: 130px;
+	border-radius: 100px !important;
+	width: 150px;
+}
+
+.trusted {
+	z-index:3;
+	position: fixed;
+	margin-top: 500px;
+	margin-left: 50px;
+	font-size: 13px;
+	opacity: 0.5;
+
+}
+
+.icon {
+	z-index:3;
+	position: fixed;
+	margin-top: 500px;
+	font-size: 28px;
+	color: white;
+	margin-left: 80px;
+	opacity: 0.7;
+
+
+}
+
+.conn {
+	z-index:3;
+	position: absolute;
+	margin-top:20px;
+	font-size: 28px;
+	color: white;
+	margin-left: 20px;
+	opacity: 0.7;
+}
+
+
+
+/*   2.KISIM CSSS ----->*/
+
+.dont {
+	
+	position: relative;
+	top:45px;
+	font-size: 14px;
+	float:right;
+
+}
+
+.get {
+	
+	position: relative;
+	top:35px;
+	border: 1px solid lightgray;
+	border-radius: 20px;
+	width: 130px;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.3s;
+	background: white;
+	float:left;
+
+	
+}
+
+.get:hover{
+	box-shadow: 3px 3px 3px 3px white;
+	transform: translateY(-0.25em);
+
+}
+
+.sing {
+	margin-top:100px;
+
+
+}
+
+.mail {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 70px;
+	letter-spacing: 0.25px;
+	cursor: pointer;
+	display: block;
+	margin-bottom: 8px;
+	color: rgb(34, 37, 43);
+	opacity: 0.5;
+}
+
+.mause {
+	cursor: not-allowed;
+	border-radius: 20px;
+	margin-left:100px;
+	width: 150px;
+	padding: 11px;
+	margin-top:20px;
+
+
+
+
+}
+
+.xx {
+	color: rgb(110, 112, 119);
+	position: relative;
+	float:right;
+	font-size: 12px;
+}
+
+.ikinci {
+	height: 700px;
+}
+
+
+.gett {
+
+	margin-top: 14px;
+	margin-left: 100px;
+	width: 117px;
+	position: relative;
+
+}
+
+/* MEDİA */
+
+@media screen and (max-width: 1100px) {
+	.ikinci {
+		display: none;
+	}
+	
+	.ilk{
+		width: 100%;
+		display: block;
+		color: black;
+		font-size: 25px;
+		position: absolute;
+		top: 20px;
+	}
+	.dont{
+		display: none;
+	}
+
+	.get {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 769px) {
+
+	.ilk {
+		
+		display: none;
+	}
+
+	.gett {
+		display: none;
+	}
+}
